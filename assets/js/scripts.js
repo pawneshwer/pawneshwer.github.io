@@ -212,7 +212,7 @@ Version: 1.5
         /* === CountDown === */
         if ($('.countdown').length > 0) {
             $(".countdown").countdown({
-                date: "31 december 2017 12:00:00",
+                date: "3 may 2017 12:00:00",
                 format: "on"
             });
         }
