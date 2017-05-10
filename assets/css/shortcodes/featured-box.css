@@ -30,7 +30,7 @@ Common featured boxes
     margin: 0;
 }
 
-.featured-item h2 {
+.featured-item h2 h3 {
     font-weight: 500;
 }
 
