@@ -2277,7 +2277,15 @@ KEY FRAME
 #preloader .progress .indeterminate{
     background:#03a9f4;
 }
-
+.featured-item, .featured-item.hover-outline h3, .featured-item.border-box h3, .featured-item.flat-border-box h3, .featured-item.flat-border-box .icon, .featured-item.hover-outline .icon, .featured-item.hover-outline .icon .colored, .featured-item.hover-outline .desc {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.hover:hover i, .hover:hover h3, .hover:hover .content {
+    color: #fff !important;
+}
 
 
 
